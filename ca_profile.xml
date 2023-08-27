@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://github.com/ImSkully.png</Icon>
+  <Profile>
+    Maintaining containers for community applications, one image at a time.
+  </Profile>
+  <DonateLink>https://github.com/sponsors/ImSkully</DonateLink>
+  <DonateText>If you use any of the applications that I maintain, consider supporting me on GitHub!</DonateText>
+  <WebPage>https://skully.tech</WebPage>
+  <Discord>https://skully.tech/discord</Discord>
+</Maintainer>
