@@ -10,6 +10,6 @@ A central repository for all Unraid Community Application templates that I maint
 ## Zipline ([diced/zipline](https://github.com/diced/zipline)) ![Version](https://img.shields.io/github/package-json/v/diced/zipline?logo=git&logoColor=white&style=flat)
 > A ShareX/file upload server that is easy to use, packed with features, and with an easy setup!
 
-* **Unraid Support Thread:** [Coming Soon](#)
+* **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/144184-support-imskully-zipline/)
 * **Website:** [zipline.diced.sh](https://zipline.diced.sh/)
 * **Documentation:** [zipline.diced.sh/docs/config](https://zipline.diced.sh/docs/config)

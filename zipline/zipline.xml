@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/COMING_SOON</Support>
+  <Support>https://forums.unraid.net/topic/144184-support-imskully-zipline/</Support>
   <Project>https://zipline.diced.sh/</Project>
   <Overview>A file upload server (ShareX/Flameshot) that is easy to use, packed with features, and easy to setup!&#xD;
 This Unraid configuration is setup and ready to deploy and use instantly, the only configuration necessary is providing your PostgreSQL database credentials!&#xD;
