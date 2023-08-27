@@ -2,13 +2,16 @@
 <Container version="2">
   <Name>Zipline</Name>
   <Repository>ghcr.io/diced/zipline:latest</Repository>
-  <Registry>https://github.com/diced/zipline</Registry>
+  <Registry>https://github.com/diced/zipline/pkgs/container/zipline</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/144184-support-imskully-zipline/</Support>
+  <GitHub>https://github.com/diced/zipline</GitHub>
+  <ReadMe>https://github.com/diced/zipline#readme</ReadMe>
   <Project>https://zipline.diced.sh/</Project>
+  <DonateLink>https://github.com/sponsors/ImSkully</DonateLink>
+  <DonateText>If you use any of the applications that I maintain, consider supporting me on GitHub!</DonateText>
   <Overview>A file upload server (ShareX/Flameshot) that is easy to use, packed with features, and easy to setup!&#xD;
 This Unraid configuration is setup and ready to deploy and use instantly, the only configuration necessary is providing your PostgreSQL database credentials!&#xD;
 &#xD;
@@ -24,11 +27,20 @@ Additionally, see a full list of available environment variables in the document
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-docker-templates/master/zipline/zipline.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/ImSkully/unraid-docker-templates/master/zipline/zipline.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <Date>2023-08-27</Date>
   <Requires>PostgreSQL Database</Requires>
+  <Date>2023-08-27</Date>
+  <Screenshot>https://i.imgur.com/14Er7qt.png</Screenshot>
+  <Screenshot>https://i.imgur.com/3JK5bp6.png</Screenshot>
+  <Screenshot>https://i.imgur.com/Jtk7P3b.png</Screenshot>
+  <Screenshot>https://i.imgur.com/oMQppBc.png</Screenshot>
+  <Screenshot>https://i.imgur.com/dvH5XGc.png</Screenshot>
+  <Screenshot>https://i.imgur.com/hQzmQoe.png</Screenshot>
+  <Screenshot>https://i.imgur.com/iTr1Ao2.png</Screenshot>
+  <Screenshot>https://i.imgur.com/lVLy7f4.png</Screenshot>
+  <Changes>
+### 2023-08-27
+- Initial release.
+  </Changes>
   <Config Name="Web UI Port" Target="3000" Default="8092" Mode="tcp" Description="The port to serve the Zipline frontend WebUI." Type="Port" Display="always" Required="true" Mask="false">8092</Config>
   <Config Name="Storage (Uploads)" Target="/zipline/uploads" Default="/mnt/user/appdata/zipline/uploads" Mode="rw" Description="The directory to store all user uploads." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/zipline/uploads</Config>
   <Config Name="Storage (Public)" Target="/zipline/public" Default="/mnt/user/appdata/zipline/public" Mode="rw" Description="The directory to store publicly shared assets." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/zipline/public</Config>
