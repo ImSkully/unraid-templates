@@ -3,7 +3,7 @@
 ![Total Templates Count](https://img.shields.io/badge/Total_Templates-1-blue)
 <a href="https://skully.tech/discord" target="_blank" title="Discord"><img alt="Discord: @imskully_" src="https://img.shields.io/badge/Discord-5865f2?style=flat&logo=discord&logoColor=white" /></a>
 
-A central repository for all Unraid Community Application templates that I maintain.
+A central repository for all Unraid OS Community Applications that I maintain.
 
 ***
 
