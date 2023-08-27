@@ -22,8 +22,8 @@ For advanced configuration, expand the settings when creating the container.&#xD
 Additionally, see a full list of available environment variables in the documentation: (https://zipline.diced.sh/docs/config)</Overview>
   <Category>Cloud: Productivity: Tools:Utilities Network:FTP</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-docker-templates/zipline/zipline.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/ImSkully/unraid-docker-templates/zipline/zipline.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-docker-templates/master/zipline/zipline.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ImSkully/unraid-docker-templates/master/zipline/zipline.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
