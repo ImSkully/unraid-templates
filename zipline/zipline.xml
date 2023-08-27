@@ -10,8 +10,6 @@
   <GitHub>https://github.com/diced/zipline</GitHub>
   <ReadMe>https://github.com/diced/zipline#readme</ReadMe>
   <Project>https://zipline.diced.sh/</Project>
-  <DonateLink>https://github.com/sponsors/ImSkully</DonateLink>
-  <DonateText>If you use any of the applications that I maintain, consider supporting me on GitHub!</DonateText>
   <Overview>A file upload server (ShareX/Flameshot) that is easy to use, packed with features, and easy to setup!&#xD;
 This Unraid configuration is setup and ready to deploy and use instantly, the only configuration necessary is providing your PostgreSQL database credentials!&#xD;
 &#xD;
