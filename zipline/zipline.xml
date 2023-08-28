@@ -11,9 +11,9 @@
   <ReadMe>https://github.com/diced/zipline#readme</ReadMe>
   <Project>https://zipline.diced.sh/</Project>
   <Overview>A file upload server (ShareX/Flameshot) that is easy to use, packed with features, and easy to setup!&#xD;
-This Unraid configuration is setup and ready to deploy and use instantly, the only configuration necessary is providing your PostgreSQL database credentials!&#xD;
+This Unraid configuration is setup and ready to deploy and use instantly, the only configuration necessary is providing your PostgreSQL credentials as a connection string.&#xD;
 &#xD;
-**An external PostgreSQL database is required!**&#xD;
+**An external PostgreSQL (14 or higher) database is required!**&#xD;
 &#xD;
 Once the container has started you can visit Zipline's webUI (default port 8092), the default login credentials are:&#xD;
 **Username:** `administrator`&#xD;
@@ -25,7 +25,7 @@ Additionally, see a full list of available environment variables in the document
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/zipline.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/zipline.png</Icon>
-  <Requires>PostgreSQL Database</Requires>
+  <Requires>PostgreSQL: An existing database running postgres:14 or higher</Requires>
   <Date>2023-08-27</Date>
   <Screenshot>https://i.imgur.com/14Er7qt.png</Screenshot>
   <Screenshot>https://i.imgur.com/3JK5bp6.png</Screenshot>
