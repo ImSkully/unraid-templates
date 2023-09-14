@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/SUPPORT_TOPIC_COMING_SOON/</Support>
+  <Support>https://forums.unraid.net/topic/145146-support-imskully-openproject/</Support>
   <ReadMe>https://www.openproject.org/docs/getting-started/</ReadMe>
   <Project>https://www.openproject.org/</Project>
   <Overview>OpenProject is a web-based project management system for location-independent team collaboration, this is a release of the open-source community edition.&#xD;

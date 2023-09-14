@@ -10,7 +10,7 @@ A central repository for all Unraid OS Community Applications that I maintain.
 ## OpenProject ([opf/openproject](https://github.com/opf/openproject)) ![Version](https://img.shields.io/github/v/release/opf/openproject?logo=git&logoColor=white&style=flat)
 > OpenProject is a web-based project management system for location-independent team collaboration, this is a release of the open-source community edition.
 
-* **Unraid Support Thread:** [Unraid Forums](#)
+* **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/145146-support-imskully-openproject/)
 * **Website:** [openproject.org](https://www.openproject.org)
 * **Documentation:** [openproject.org/docs](https://www.openproject.org/docs/getting-started/)
 
