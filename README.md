@@ -1,11 +1,18 @@
 # Unraid CA Template Hub <a href="https://unraid.net" target="_blank" alt="Unraid"><img src="https://img.shields.io/badge/Unraid-F15A2C?style=flat&logo=unraid&logoColor=white" /></a>
 ![Maintained](https://img.shields.io/maintenance/yes/2023.svg)
-![Total Templates Count](https://img.shields.io/badge/Total_Templates-1-blue)
+![Total Templates Count](https://img.shields.io/badge/Total_Templates-2-blue)
 <a href="https://skully.tech/discord" target="_blank" title="Discord"><img alt="Discord: @imskully_" src="https://img.shields.io/badge/Discord-5865f2?style=flat&logo=discord&logoColor=white" /></a>
 
 A central repository for all Unraid OS Community Applications that I maintain.
 
 ***
+
+## OpenProject ([opf/openproject](https://github.com/opf/openproject)) ![Version](https://img.shields.io/github/v/release/opf/openproject?logo=git&logoColor=white&style=flat)
+> OpenProject is a web-based project management system for location-independent team collaboration, this is a release of the open-source community edition.
+
+* **Unraid Support Thread:** [Unraid Forums](#)
+* **Website:** [openproject.org](https://www.openproject.org)
+* **Documentation:** [openproject.org/docs](https://www.openproject.org/docs/getting-started/)
 
 ## Zipline ([diced/zipline](https://github.com/diced/zipline)) ![Version](https://img.shields.io/github/package-json/v/diced/zipline?logo=git&logoColor=white&style=flat)
 > A ShareX/file upload server that is easy to use, packed with features, and with an easy setup!
