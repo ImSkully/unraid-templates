@@ -25,7 +25,7 @@ For advanced configuration, see all supported environment variables:&#xD;
   <Date>2023-09-14</Date>
   <Changes>
 ### 2023-09-21
-- Removed default value for DATABASE_URL (fixes container not starting)
+- Removed DATABASE_URL variable (when added, even when blank, caused image to always try use external DB)
 - Adjusted HTTPS variables to now only appear in advanced view.
 ### 2023-09-17
 - Added configurable DATABASE_URL variable under advanced settings.
@@ -41,5 +41,4 @@ For advanced configuration, see all supported environment variables:&#xD;
   <Config Name="Max Attachment Size (MB)" Target="OPENPROJECT_ATTACHMENT__MAX__SIZE" Default="5120" Mode="" Description="The maximum file size (MB) to allow for attachments." Type="Variable" Display="always" Required="false" Mask="false">5120</Config>
   <Config Name="Use HTTPS (SSL)" Target="OPENPROJECT_HTTPS" Default="true|false" Mode="" Description="Whether or not to use HTTPS, if you only plan to only run OpenProject locally then leave this disabled." Type="Variable" Display="advanced" Required="true" Mask="false">false</Config>
   <Config Name="HSTS Headers" Target="OPENPROJECT_HSTS" Default="true|false" Mode="" Description="Allow disabling of HSTS headers and HTTP > HTTPS redirects, this should only be enabled if HTTPS is on." Type="Variable" Display="advanced" Required="true" Mask="false">false</Config>
-  <Config Name="PostgreSQL Connection String" Target="DATABASE_URL" Default="" Mode="" Description="The PostgreSQL connection string for the Postgres database to use if you would like to use an existing database. If left blank then a Postgres instance will automatically be created in this container." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 </Container>
