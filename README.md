@@ -17,7 +17,7 @@ A central repository for all Unraid OS Community Applications that I maintain.
 ## Vikunja ([go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)) ![Version](https://img.shields.io/github/v/tag/go-vikunja/vikunja?style=flat&logo=git&logoColor=white&label=version)
 > The Todo-app to organize your life.
 
-* **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/144184-support-imskully-vikunja/)
+* **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/153316-support-imskully-vikunja/)
 * **Website:** [vikunja.io](https://vikunja.io/)
 * **Documentation:** [vikunja.io/docs](https://vikunja.io/docs/)
 
