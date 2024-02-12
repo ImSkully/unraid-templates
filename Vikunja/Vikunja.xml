@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/145146-support-imskully-vikunja/</Support>
+  <Support>https://forums.unraid.net/topic/153316-support-imskully-vikunja/</Support>
   <ReadMe>https://github.com/go-vikunja/vikunja#readme</ReadMe>
   <Project>https://vikunja.io/</Project>
   <Overview>The open-source, self-hostable to-do app - organize everything, on all platforms.&#xD;
