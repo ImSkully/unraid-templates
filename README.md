@@ -1,6 +1,6 @@
 # Unraid CA Template Hub <a href="https://unraid.net" target="_blank" alt="Unraid"><img src="https://img.shields.io/badge/Unraid-F15A2C?style=flat&logo=unraid&logoColor=white" /></a>
-![Maintained](https://img.shields.io/maintenance/yes/2023.svg)
-![Total Templates Count](https://img.shields.io/badge/Total_Templates-2-blue)
+![Maintained](https://img.shields.io/maintenance/yes/2024.svg)
+![Total Templates Count](https://img.shields.io/badge/Total_Templates-3-blue)
 <a href="https://skully.tech/discord" target="_blank" title="Discord"><img alt="Discord: @imskully_" src="https://img.shields.io/badge/Discord-5865f2?style=flat&logo=discord&logoColor=white" /></a>
 
 A central repository for all Unraid OS Community Applications that I maintain.
@@ -13,6 +13,13 @@ A central repository for all Unraid OS Community Applications that I maintain.
 * **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/145146-support-imskully-openproject/)
 * **Website:** [openproject.org](https://www.openproject.org)
 * **Documentation:** [openproject.org/docs](https://www.openproject.org/docs/getting-started/)
+
+## Vikunja ([go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)) ![Version](https://img.shields.io/github/v/tag/go-vikunja/vikunja?style=flat&logo=git&logoColor=white&label=version)
+> The Todo-app to organize your life.
+
+* **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/144184-support-imskully-vikunja/)
+* **Website:** [vikunja.io](https://vikunja.io/)
+* **Documentation:** [vikunja.io/docs](https://vikunja.io/docs/)
 
 ## Zipline ([diced/zipline](https://github.com/diced/zipline)) ![Version](https://img.shields.io/github/package-json/v/diced/zipline?logo=git&logoColor=white&style=flat)
 > A ShareX/file upload server that is easy to use, packed with features, and with an easy setup!

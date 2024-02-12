@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Vikunja</Name>
+  <Repository>vikunja/vikunja:latest</Repository>
+  <Registry>https://hub.docker.com/r/vikunja/vikunja</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/145146-support-imskully-vikunja/</Support>
+  <ReadMe>https://github.com/go-vikunja/vikunja#readme</ReadMe>
+  <Project>https://vikunja.io/</Project>
+  <Overview>The open-source, self-hostable to-do app - organize everything, on all platforms.&#xD;
+For advanced configuration, see all supported configuration options:&#xD;
+(https://vikunja.io/docs/config-options/)</Overview>
+  <Category>Productivity: Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:3456]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Vikunja/Vikunja.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Vikunja/Vikunja.png</Icon>
+  <Date>2024-02-12</Date>
+  <Changes>
+### 2024-02-12
+- Initial release.
+  </Changes>
+  <Config Name="Web UI Port" Target="3456" Default="3456" Mode="tcp" Description="The port to serve the frontend WebUI." Type="Port" Display="always" Required="true" Mask="false">3456</Config>
+
+  <Config Name="Application Data Directory" Target="/app/vikunja/files" Default="/mnt/user/appdata/vikunja" Mode="rw" Description="The directory application data is saved." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/vikunja</Config>
+  <Config Name="Configuration Directory" Target="/etc/vikunja" Default="/mnt/user/appdata/vikunja/config" Mode="rw" Description="The directory where your config.yml is located." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/vikunja/config</Config>
+
+  <Config Name="Enable Registration" Target="VIKUNJA_SERVICE_ENABLEREGISTRATION" Default="true|false" Mode="" Description="Whether to let new users registering themselves or not." Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+
+  <Config Name="Database Type" Target="VIKUNJA_DATABASE_TYPE" Default="sqlite" Mode="" Description="Database type to use, possible values are 'sqlite', 'mysql', or 'postgres'." Type="Variable" Display="always" Required="true" Mask="false">sqlite</Config>
+  <Config Name="(SQLite) SQLite Database Path" Target="VIKUNJA_DATABASE_PATH" Default="/etc/vikunja/vikunja.db" Mode="" Description="(SQLite) When using SQLite for database storage, this is the path to your database file." Type="Variable" Display="always" Required="false" Mask="false">/etc/vikunja/vikunja.db</Config>
+  <Config Name="(MySQL/Postgres) Database Host" Target="VIKUNJA_DATABASE_HOST" Default="" Mode="" Description="(MySQL/Postgres) The host to use for your database." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="(MySQL/Postgres) Database Username" Target="VIKUNJA_DATABASE_USER" Default="" Mode="" Description="(MySQL/Postgres) The database username to use." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="(MySQL/Postgres) Database Password" Target="VIKUNJA_DATABASE_PASSWORD" Default="" Mode="" Description="(MySQL/Postgres) The database account password." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="(MySQL/Postgres) Database Name" Target="VIKUNJA_DATABASE_DATABASE" Default="vikunja" Mode="" Description="(MySQL/Postgres) The name of the database to use." Type="Variable" Display="always" Required="false" Mask="false">vikunja</Config>
+
+  <Config Name="Mailer Enabled" Target="VIKUNJA_MAILER_ENABLED" Default="true|false" Mode="" Description="Whether to enable the mailer or not. If it is disabled, all users are enabled right away and password reset is not possible." Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="Mailer Host" Target="VIKUNJA_MAILER_HOST" Default="" Mode="" Description="The SMTP host name to use if the mailer is enabled." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Mailer Port" Target="VIKUNJA_MAILER_PORT" Default="465" Mode="" Description="The SMTP port value to use if the mailer is enabled." Type="Variable" Display="always" Required="false" Mask="false">465</Config>
+  <Config Name="Mailer Auth Type" Target="VIKUNJA_MAILER_AUTHTYPE" Default="plain" Mode="" Description="SMTP Auth Type. Can be either 'plain', 'login' or 'cram-md5'." Type="Variable" Display="always" Required="false" Mask="false">plain</Config>
+
+  <Config Name="Mailer Username" Target="VIKUNJA_MAILER_USERNAME" Default="" Mode="" Description="The SMTP username to use." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Mailer Password" Target="VIKUNJA_MAILER_PASSWORD" Default="" Mode="" Description="The SMTP password to use." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Mailer Skip TLS" Target="VIKUNJA_MAILER_SKIPTLSVERIFY" Default="true|false" Mode="" Description="Wether to skip verification of the TLS certificate on the server." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="Mailer Skip TLS" Target="VIKUNJA_MAILER_FROMEMAIL" Default="" Mode="" Description="The default from address when sending emails." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Mailer Force SSL" Target="VIKUNJA_MAILER_FORCESSL" Default="true|false" Mode="" Description="By default, vikunja will try to connect with starttls, use this option to force it to use SSL." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+
+  <Config Name="Public URL" Target="VIKUNJA_SERVICE_PUBLICURL" Default="" Mode="" Description="The public facing URL where your users can reach Vikunja, used in emails and for the communication between API and frontend." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Enable Email Reminders" Target="VIKUNJA_SERVICE_ENABLEEMAILREMINDERS" Default="true|false" Mode="" Description="If enabled, Vikunja will send an email to everyone who is either assigned to a task or created it when a task reminder is due." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Enable User Deletion" Target="VIKUNJA_SERVICE_ENABLEUSERDELETION" Default="true|false" Mode="" Description="If true, will allow users to request the complete deletion of their account. When using external authentication methods it may be required to coordinate with them in order to delete the account." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Custom Logo URL" Target="VIKUNJA_SERVICE_CUSTOMLOGOURL" Default="" Mode="" Description="Allow using a custom logo via external URL." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+
+  <Config Name="CORS Enabled" Target="VIKUNJA_CORS_ENABLE" Default="true|false" Mode="" Description="Whether to enable or disable CORS headers. Note: If you want to put the frontend and the API on separate domains or ports, you will need to enable this otherwise the frontend won't be able to make requests to the API through the browser." Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+  <Config Name="CORS Allowed Origins" Target="VIKUNJA_CORS_ORIGINS" Default="" Mode="" Description="A list of origins which may access the API, these need to include the protocol (http:// or https://) and port, if any." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="CORS Max Age" Target="VIKUNJA_CORS_MAXAGE" Default="0" Mode="" Description="How long (in seconds) the results of a preflight request can be cached." Type="Variable" Display="advanced" Required="false" Mask="false">0</Config>
+
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+</Container>
