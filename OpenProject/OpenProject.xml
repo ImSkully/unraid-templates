@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>OpenProject</Name>
-  <Repository>openproject/community:13</Repository>
-  <Registry>https://hub.docker.com/r/openproject/community</Registry>
+  <Repository>openproject/openproject:14.1.0</Repository>
+  <Registry>https://hub.docker.com/r/openproject/openproject</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -24,6 +24,9 @@ For advanced configuration, see all supported environment variables:&#xD;
   <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/OpenProject/OpenProject.png</Icon>
   <Date>2023-09-14</Date>
   <Changes>
+### 2024-05-24
+- Moved Docker from community registry to new openproject/openproject.
+- Updated template to OpenProject 14.1.0, see OpenProject changelog for breaking changes.
 ### 2023-09-21
 - Removed DATABASE_URL variable (when added, even when blank, caused image to always try use external DB)
 - Adjusted HTTPS variables to now only appear in advanced view.
