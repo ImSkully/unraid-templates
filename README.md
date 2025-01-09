@@ -1,5 +1,5 @@
 # Unraid CA Template Hub <a href="https://unraid.net" target="_blank" alt="Unraid"><img src="https://img.shields.io/badge/Unraid-F15A2C?style=flat&logo=unraid&logoColor=white" /></a>
-![Maintained](https://img.shields.io/maintenance/yes/2024.svg)
+![Maintained](https://img.shields.io/maintenance/yes/2025.svg)
 ![Total Templates Count](https://img.shields.io/badge/Total_Templates-3-blue)
 <a href="https://skully.tech/discord" target="_blank" title="Discord"><img alt="Discord: @imskully_" src="https://img.shields.io/badge/Discord-5865f2?style=flat&logo=discord&logoColor=white" /></a>
 
