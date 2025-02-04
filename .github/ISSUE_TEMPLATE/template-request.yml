@@ -1,0 +1,59 @@
+name: Template Request
+description: Request the addition of a new Docker template to this Unraid repository.
+title: "[Template Request]: "
+labels: ["template-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to submit your interest in requesting a new template! Please provide some brief information to help with your request.
+  - type: dropdown
+    id: template-exists
+    attributes:
+      label: Does an existing template already exist for the application?
+      description: |
+        You can search the [Community Applications](https://unraid.net/community/apps) page to determine if a template already exists.
+      options:
+        - 'No'
+        - Yes but it's outdated
+        - Yes, a template already exists
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: application-name
+    attributes:
+      label: Application Name
+      description: What is the name of the application?
+    validations:
+      required: true
+  - type: input
+    id: application-website
+    attributes:
+      label: Application Website
+      description: Please provide a link to the application's homepage if available.
+    validations:
+      required: false
+  - type: input
+    id: application-project
+    attributes:
+      label: Application Project Link
+      description: Please provide a link to the application's open source project page *(GitHub, GitLab, etc.)*
+      placeholder: 'https://github.com/...'
+    validations:
+      required: true
+  - type: textarea
+    id: application-information
+    attributes:
+      label: Application Information
+      description: Provide a brief description of what the application is used for.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Confirmation
+      description: Have you checked to ensure your request is not a duplicate of an [existing one](https://github.com/ImSkully/unraid-templates/issues)?
+      options:
+        - label: Yes, a previous request has not already been made for this application.
+          required: true
