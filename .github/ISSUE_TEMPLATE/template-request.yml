@@ -1,4 +1,4 @@
-name: Template Request
+name: Application Template Request
 description: Request the addition of a new Docker template to this Unraid repository.
 title: "[Template Request]: "
 labels: ["template-request"]
@@ -17,7 +17,6 @@ body:
         - 'No'
         - Yes but it's outdated
         - Yes, a template already exists
-      default: 0
     validations:
       required: true
   - type: input
