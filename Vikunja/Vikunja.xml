@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<Container version="2">
+<Container>
   <Name>Vikunja</Name>
   <Repository>vikunja/vikunja:latest</Repository>
   <Registry>https://hub.docker.com/r/vikunja/vikunja</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
+  <ExtraParams>--user 99:100</ExtraParams>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/153316-support-imskully-vikunja/</Support>
   <ReadMe>https://github.com/go-vikunja/vikunja#readme</ReadMe>
@@ -18,6 +19,9 @@ For advanced configuration, see all supported configuration options:&#xD;
   <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Vikunja/Vikunja.png</Icon>
   <Date>2024-02-12</Date>
   <Changes>
+### 2025-02-04
+- Removed legacy PUID and PGID configuration variables that are no longer supported by Vikunja.
+- Added Docker container extra parameters to run with correct user:group permissions (99:100) for Unraid.
 ### 2024-02-12
 - Initial release.
   </Changes>
@@ -54,7 +58,4 @@ For advanced configuration, see all supported configuration options:&#xD;
   <Config Name="CORS Enabled" Target="VIKUNJA_CORS_ENABLE" Default="true|false" Mode="" Description="Whether to enable or disable CORS headers. Note: If you want to put the frontend and the API on separate domains or ports, you will need to enable this otherwise the frontend won't be able to make requests to the API through the browser." Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
   <Config Name="CORS Allowed Origins" Target="VIKUNJA_CORS_ORIGINS" Default="" Mode="" Description="A list of origins which may access the API, these need to include the protocol (http:// or https://) and port, if any." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="CORS Max Age" Target="VIKUNJA_CORS_MAXAGE" Default="0" Mode="" Description="How long (in seconds) the results of a preflight request can be cached." Type="Variable" Display="advanced" Required="false" Mask="false">0</Config>
-
-  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
