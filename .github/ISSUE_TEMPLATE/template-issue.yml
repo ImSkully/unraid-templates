@@ -1,4 +1,4 @@
-name: Template Issue
+name: Report Template Issue
 description: Report an issue or bug with an existing template such as errors, outdated variables, etc.
 title: "[Template Issue]: "
 labels: ["template-bug"]
@@ -15,10 +15,10 @@ body:
       label: Application Template
       description: What is the name of the application template you are reporting?
       options:
+        - N/A
         - OpenProject
         - Vikunja
         - Zipline
-        - Other
     validations:
       required: true
   - type: textarea
