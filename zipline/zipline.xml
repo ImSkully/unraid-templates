@@ -33,7 +33,7 @@ To access the settings dashboard, navigate to /dashboard/admin/settings on your 
   <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/6-dark.png</Screenshot>
   <Changes>
 ### 2025-12-18
-- Updated template to support Zipline v4. *(For help with migrating from v3 -> v4, see [migration guide](https://zipline.diced.sh/docs/migrate#preparation))*
+- Updated template to support Zipline v4.
 ### 2023-08-27
 - Initial release.
   </Changes>
