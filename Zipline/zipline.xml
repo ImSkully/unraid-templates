@@ -21,16 +21,16 @@ As of Zipline v4, most configuration options can be managed through the settings
 To access the settings dashboard, navigate to /dashboard/admin/settings on your Zipline instance.</Overview>
   <Category>Cloud: Productivity: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/zipline.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/zipline.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/zipline.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/zipline.png</Icon>
   <Requires>PostgreSQL: An existing database running postgres:16 or higher</Requires>
   <Date>2025-12-18</Date>
-  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/1-dark.png</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/2-dark.png</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/3-dark.png</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/4-dark.png</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/5-dark.png</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/zipline/screenshots/6-dark.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/screenshots/1-dark.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/screenshots/2-dark.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/screenshots/3-dark.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/screenshots/4-dark.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/screenshots/5-dark.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/Zipline/screenshots/6-dark.png</Screenshot>
   <Changes>
 ### 2025-12-18
 - Updated template to support Zipline v4.
