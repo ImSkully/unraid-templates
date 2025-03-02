@@ -2,10 +2,10 @@
 <Maintainer>
   <Icon>https://github.com/ImSkully.png</Icon>
   <Profile>
-    Maintaining containers for community applications, one image at a time.
+    Maintaining container templates for community applications, one image at a time.
   </Profile>
-  <DonateLink>https://github.com/sponsors/ImSkully</DonateLink>
-  <DonateText>If you use any of the applications that I maintain, consider supporting me on GitHub!</DonateText>
+  <DonateLink>https://buymeacoffee.com/skully</DonateLink>
+  <DonateText>If you use any of the applications that I maintain, feel free to support my work by buying me a coffee!</DonateText>
   <WebPage>https://skully.tech</WebPage>
   <Discord>https://skully.tech/discord</Discord>
 </Maintainer>
