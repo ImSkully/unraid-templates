@@ -16,6 +16,7 @@ body:
       description: What is the name of the application template you are reporting?
       options:
         - N/A
+        - FileRun
         - OpenProject
         - Vikunja
         - Zipline
