@@ -47,6 +47,6 @@ For full guidance on setup and configuration, refer to the FileRun support threa
   <Config Name="Database Password" Target="FR_DB_PASS" Default="" Mode="" Description="The database account password to use." Type="Variable" Display="always" Required="true" Mask="true"></Config>
   <Config Name="UID" Target="APACHE_RUN_USER_ID" Default="99" Mode="" Description="The UID to use for the Apache service." Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
   <Config Name="GUID" Target="APACHE_RUN_GROUP_ID" Default="100" Mode="" Description="The GUID to use for the Apache service." Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
-  <Config Name="UID Name" Target="APACHE_RUN_USER" Default="nobody" Mode="" Description="The name of the UID." Type="Variable" Display="advanced-hide" Required="true" Mask="false">nobody</Config>
+  <Config Name="UID Name" Target="APACHE_RUN_USER" Default="99" Mode="" Description="The name of the UID." Type="Variable" Display="advanced-hide" Required="true" Mask="false">nobody</Config>
   <Config Name="GUID Name" Target="APACHE_RUN_GROUP" Default="users" Mode="" Description="The name of the GUID." Type="Variable" Display="advanced-hide" Required="true" Mask="false">users</Config>
 </Container>
