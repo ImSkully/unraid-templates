@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>OpenProject</Name>
-  <Repository>openproject/openproject:16.2.0</Repository>
+  <Repository>openproject/openproject:17.0.2</Repository>
   <Registry>https://hub.docker.com/r/openproject/openproject</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -19,11 +19,13 @@ The default administrator login credentials are:&#xD;
 For advanced configuration, see all supported environment variables:&#xD;
 (https://www.openproject.org/docs/installation-and-operations/configuration/environment/#supported-environment-variables)</Overview>
   <Category>Cloud: Productivity: Tools:Utilities</Category>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <WebUI>http://[IP]:[PORT:5683]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/OpenProject/OpenProject.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/ImSkully/unraid-templates/master/OpenProject/OpenProject.png</Icon>
   <Date>2023-09-14</Date>
   <Changes>
+### 2026-02-03
+- Updated template to OpenProject 17.0.2, see OpenProject changelog for breaking changes.
 ### 2025-07-19
 - Updated template to OpenProject 16.2.0, see OpenProject changelog for breaking changes.
 ### 2025-01-09
