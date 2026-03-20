@@ -7,7 +7,7 @@ A central repository for all Unraid OS Community Applications that I maintain.
 
 ***
 
-## FileRun ([filerun/filerun](https://hub.docker.com/r/filerun/filerun)) ![Version](https://img.shields.io/docker/v/filerun/filerun/8.1?logo=git&logoColor=white&style=flat)
+## FileRun ([filerun/filerun](https://hub.docker.com/r/filerun/filerun)) ![Version](https://img.shields.io/docker/v/filerun/filerun/exp?logo=git&logoColor=white&style=flat)
 > FileRun is a self-hosted file sync and share web-based application - Like Google Drive, but private! and under your full control.
 
 * **Unraid Support Thread:** [Unraid Forums](https://forums.unraid.net/topic/187661-support-imskully-filerun/)
