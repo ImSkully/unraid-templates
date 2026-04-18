@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FileRun</Name>
-  <Repository>filerun/filerun:exp</Repository>
+  <Repository>filerun/filerun:latest</Repository>
   <Registry>https://hub.docker.com/r/filerun/filerun</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -46,7 +46,7 @@ For full guidance on setup and configuration, refer to the FileRun support threa
   <Config Name="User Files Directory" Target="/user-files" Default="" Mode="rw" Description="Your actual FileRun user data directory where your files are stored, this can be any directory or share (recommended) where you want to store your files." Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Database Host" Target="FR_DB_HOST" Default="" Mode="" Description="The database hostname/IP of your MySQL or MariaDB server." Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Database Port" Target="FR_DB_PORT" Default="3306" Mode="" Description="The port number for your MySQL or MariaDB database." Type="Variable" Display="always" Required="true" Mask="false">3306</Config>
-  <Config Name="Database Name" Target="FT_DB_NAME" Default="filerun" Mode="" Description="The name of the database to use." Type="Variable" Display="always" Required="true" Mask="false">filerun</Config>
+  <Config Name="Database Name" Target="FR_DB_NAME" Default="filerun" Mode="" Description="The name of the database to use." Type="Variable" Display="always" Required="true" Mask="false">filerun</Config>
   <Config Name="Database Username" Target="FR_DB_USER" Default="" Mode="" Description="The database account username to use." Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Database Password" Target="FR_DB_PASS" Default="" Mode="" Description="The database account password to use." Type="Variable" Display="always" Required="true" Mask="true"></Config>
 </Container>
